@@ -39,6 +39,21 @@ Este projeto está licenciado sob a Licença MIT, proporcionando liberdade para 
 - Variáveis de ambiente nos arquivos `.env` são usadas para gerenciar conexões e credenciais de banco de dados; ajuste conforme necessário.
 
 
-#### Rodando o backup
+### Rodando o backup
 
 ![image](https://github.com/user-attachments/assets/75247ba3-a968-410f-a435-8d58acbf0dcd)
+
+
+#### Sucesso
+![image](https://github.com/user-attachments/assets/1175df42-f109-4713-87fe-ee1fb9b016ef)
+
+
+
+### Rodando restore
+![image](https://github.com/user-attachments/assets/6302ba58-1971-4bdc-bced-6249051abcf7)
+
+![image](https://github.com/user-attachments/assets/fa36a8c1-c5a7-4c90-ace0-e5d336d25bf0)
+
+![image](https://github.com/user-attachments/assets/22fb38ec-c9fc-4131-906e-8057923b96ca)
+
+
