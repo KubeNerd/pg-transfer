@@ -37,3 +37,8 @@ Este projeto está licenciado sob a Licença MIT, proporcionando liberdade para 
 - Certifique-se de que os arquivos `Dockerfile` e `docker-compose.yml` estão configurados corretamente para o seu ambiente.
 - Personalizações podem ser necessárias para configurações de banco de dados ou redes específicas.
 - Variáveis de ambiente nos arquivos `.env` são usadas para gerenciar conexões e credenciais de banco de dados; ajuste conforme necessário.
+
+
+#### Rodando o backup
+
+![image](https://github.com/user-attachments/assets/75247ba3-a968-410f-a435-8d58acbf0dcd)
