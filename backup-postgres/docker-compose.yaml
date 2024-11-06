@@ -1,0 +1,12 @@
+services:
+  backup-postgress:
+    build: .
+    container_name: backup-postgress
+    environment:
+      PGUSER: ${PGUSER}
+      PGPASSWORD: ${PGPASSWORD}
+      PGDB: ${PGDB}
+      PGHOST: ${PGHOST}
+      PGPORT: ${PGPORT}
+    volumes:
+      - $(pwd):/dump

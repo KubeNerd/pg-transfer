@@ -1,0 +1,13 @@
+services:
+  postgres-restore:
+    build: .
+    container_name: restore-postgres
+    environment:
+      PGUSER: ${PGUSER}
+      PGPASSWORD: ${PGPASSWORD}
+      PGDB: ${PGDB}
+      PGHOST: ${PGHOST}
+      PGPORT: ${PGPORT}
+      PG_DUMP_TO_RESTORE: /dump/${PG_DUMP_TO_RESTORE}
+    volumes:
+      - ./dump:/dump
