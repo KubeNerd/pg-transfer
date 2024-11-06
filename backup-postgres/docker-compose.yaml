@@ -9,4 +9,4 @@ services:
       PGHOST: ${PGHOST}
       PGPORT: ${PGPORT}
     volumes:
-      - $(pwd):/dump
+      - ./dump:/dump
