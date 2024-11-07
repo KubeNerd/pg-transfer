@@ -9,7 +9,8 @@ PGPORT="${PGPORT}"
 echo "Starting PostgreSQL backup..."
 
 export PGPASSWORD=$PGPASSWORD
-pg_dump -U "$PGUSER" -h "$PGHOST" -p "$PGPORT" "$PGDB" > /dump/backup_$(date +'%Y%m%d%H%M%S').sql
+# pg_dump -U "$PGUSER" -h "$PGHOST" -p "$PGPORT" "$PGDB" > /dump/backup_$(date +'%Y%m%d%H%M%S').sql
+pg_dump -U "$PGUSER" -h "$PGHOST" -p "$PGPORT" "$PGDB" --no-owner --no-privileges > /dump/backup_$(date +'%Y%m%d%H%M%S').sql
 
 
 if [ $? -eq 0 ]; then
